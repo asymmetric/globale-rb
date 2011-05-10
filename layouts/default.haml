@@ -9,6 +9,8 @@
       #header
         %a{:href => '/'}
           %img{:src=>'/images/globale_logo.jpg'}
-      = yield
+      #main
+        = yield
+      = render_partial 'sidebar'
 
 = refresh
