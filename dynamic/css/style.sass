@@ -1,13 +1,23 @@
+$link-grey: #555
+$globale-red: #D80000
+
 body
   font-family: arial, verdana, sans-serif
   font-size: 14px
+  a
+    &:link
+      color: $link-grey
+      text-decoration: none
+    &:visited
+      color: $link-grey
 #header
   width: 400px
   margin: 0 auto
 #main
   h2#heading
     font-family: verdana, tahoma, arial, sans-serif
-    color: #D80000
+    font-weight: normal
+    color: $globale-red
   float: right
   width: 82%
   #content
@@ -19,3 +29,8 @@ body
     text-align: right
     list-style: none
     padding-top: 0.7em
+div.festival
+  h3
+    color: $globale-red
+  img
+    width: 180px
