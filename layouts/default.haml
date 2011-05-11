@@ -3,12 +3,12 @@
 %html
   %head
     %title globale Filmfestival Berlin | globale Filmfestival
-    %link{:rel=>'stylesheet', :type=>'text/css', :href=>'/css/style.css'}
+    %link{:rel=>'stylesheet', :type=>'text/css', :href=>'css/style.css'}
   %body
     #wrapper
       #header
         %a{:href => '/'}
-          %img{:src=>'/images/globale_logo.jpg'}
+          %img{:src=>'images/globale_logo.jpg'}
       #main
         = yield
       = render_partial 'sidebar'
