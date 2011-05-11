@@ -9,13 +9,13 @@
       head.js('js/snack-qwery-min.js', 'js/scripts.js')
   %body
     #wrapper
-      #header
+      %header
         %a{:href => 'index'}
           %img{:src=>'images/globale_logo.jpg'}
       #main
         = yield
       = render_partial 'sidebar'
-      #footer
+      %footer
         %a{:href => 'impressum'} Impressum
 
 = refresh
