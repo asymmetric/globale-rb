@@ -1,6 +1,6 @@
 source :rubygems
 
 gem 'frank'
-gem 'haml'
+gem 'haml', git: 'https://github.com/nex3/haml.git'
 gem 'sass'
 gem 'rdiscount'
